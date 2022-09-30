@@ -10,4 +10,4 @@ for i,v in next, games do
 end
 
 local name = games[game.PlaceId] or games[game.GameId]
-return loadstring(game:HttpGet(url.. "/"..(name)..".lua"))()
+return loadstring(game:HttpGet(url.. "/"..(name or "Universal")..".lua"))()

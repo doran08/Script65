@@ -21,6 +21,7 @@ G2L["2"]["BackgroundTransparency"] = 1;
 G2L["2"]["Size"] = UDim2.new(0.30991989374160767, 0, 0.44675642251968384, 0);
 G2L["2"]["BorderColor3"] = Color3.fromRGB(37, 37, 37);
 G2L["2"]["Position"] = UDim2.new(0.5224891901016235, 0, 0.4736842215061188, 0);
+G2L["2"]["Visible"] = false;
 G2L["2"]["Name"] = [[TopFrame]];
 
 -- StarterGui.ScreenGui.TopFrame.SettingsFrame
@@ -684,7 +685,6 @@ G2L["59"]["AspectRatio"] = 1.377416729927063;
 G2L["5a"] = Instance.new("Frame", G2L["1"]);
 G2L["5a"]["BackgroundColor3"] = Color3.fromRGB(37, 37, 37);
 G2L["5a"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["5a"]["Visible"] = false;
 G2L["5a"]["Name"] = [[Saver]];
 
 -- StarterGui.ScreenGui.Saver.Disable
@@ -1909,10 +1909,7 @@ local script = G2L["88"];
 			end
 		end
 	end
-	
-	
-	
-	--[[
+	game:GetService("UserInputService").InputBegan:connect(onKeyPress)
 	
 	local playername = game:GetService("Players").LocalPlayer.Name
 	local playerid = game:GetService("Players").LocalPlayer.UserId
@@ -1935,7 +1932,7 @@ local script = G2L["88"];
 		})
 	end
 	
-	game:GetService("UserInputService").InputBegan:connect(onKeyPress)]]
+	
 end;
 task.spawn(C_88);
 

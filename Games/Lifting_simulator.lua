@@ -321,7 +321,6 @@ G2L["2e"]["BackgroundColor3"] = Color3.fromRGB(37, 37, 37);
 G2L["2e"]["Size"] = UDim2.new(1, 0, 0.9972602128982544, 0);
 G2L["2e"]["BorderColor3"] = Color3.fromRGB(37, 37, 37);
 G2L["2e"]["Position"] = UDim2.new(-0.0008629861404187977, 0, 0, 0);
-G2L["2e"]["Visible"] = false;
 G2L["2e"]["Name"] = [[Autofarm]];
 
 -- StarterGui.ScreenGui.TopFrame.Autofarm.Main
@@ -335,7 +334,7 @@ G2L["2f"]["Image"] = [[rbxassetid://3570695787]];
 G2L["2f"]["Size"] = UDim2.new(0.5762643218040466, 0, 0.3884721100330353, 0);
 G2L["2f"]["Name"] = [[Main]];
 G2L["2f"]["BackgroundTransparency"] = 1;
-G2L["2f"]["Position"] = UDim2.new(-0.016849825158715248, 0, 0.606228232383728, 0);
+G2L["2f"]["Position"] = UDim2.new(0.0008035246282815933, 0, 0.6089259386062622, 0);
 
 -- StarterGui.ScreenGui.TopFrame.Autofarm.Main.Autofarm
 G2L["30"] = Instance.new("ImageLabel", G2L["2f"]);
@@ -449,7 +448,7 @@ G2L["39"]["Position"] = UDim2.new(0.31679388880729675, 0, 0.5622895956039429, 0)
 G2L["3a"] = Instance.new("Frame", G2L["2e"]);
 G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(49, 49, 49);
 G2L["3a"]["Size"] = UDim2.new(0.6092565059661865, 0, 0.17265427112579346, 0);
-G2L["3a"]["Position"] = UDim2.new(0.44761866331100464, 0, -0.0011130571365356445, 0);
+G2L["3a"]["Position"] = UDim2.new(0.3907356560230255, 0, -0.0011130571365356445, 0);
 
 -- StarterGui.ScreenGui.TopFrame.Autofarm.Frame.Muscle
 G2L["3b"] = Instance.new("TextLabel", G2L["3a"]);
@@ -590,6 +589,7 @@ G2L["4e"]["BackgroundColor3"] = Color3.fromRGB(37, 37, 37);
 G2L["4e"]["Size"] = UDim2.new(1, 0, 0.9972602128982544, 0);
 G2L["4e"]["BorderColor3"] = Color3.fromRGB(37, 37, 37);
 G2L["4e"]["Position"] = UDim2.new(-0.0008629861404187977, 0, 0, 0);
+G2L["4e"]["Visible"] = false;
 G2L["4e"]["Name"] = [[MainFrame]];
 
 -- StarterGui.ScreenGui.TopFrame.MainFrame.PlayerImage

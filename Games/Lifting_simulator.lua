@@ -321,6 +321,7 @@ G2L["2e"]["BackgroundColor3"] = Color3.fromRGB(37, 37, 37);
 G2L["2e"]["Size"] = UDim2.new(1, 0, 0.9972602128982544, 0);
 G2L["2e"]["BorderColor3"] = Color3.fromRGB(37, 37, 37);
 G2L["2e"]["Position"] = UDim2.new(-0.0008629861404187977, 0, 0, 0);
+G2L["2e"]["Visible"] = false;
 G2L["2e"]["Name"] = [[Autofarm]];
 
 -- StarterGui.ScreenGui.TopFrame.Autofarm.Main
@@ -589,7 +590,6 @@ G2L["4e"]["BackgroundColor3"] = Color3.fromRGB(37, 37, 37);
 G2L["4e"]["Size"] = UDim2.new(1, 0, 0.9972602128982544, 0);
 G2L["4e"]["BorderColor3"] = Color3.fromRGB(37, 37, 37);
 G2L["4e"]["Position"] = UDim2.new(-0.0008629861404187977, 0, 0, 0);
-G2L["4e"]["Visible"] = false;
 G2L["4e"]["Name"] = [[MainFrame]];
 
 -- StarterGui.ScreenGui.TopFrame.MainFrame.PlayerImage

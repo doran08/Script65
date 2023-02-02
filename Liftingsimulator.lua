@@ -1529,7 +1529,7 @@ local script = G2L["31"];
 				debounce = false
 				toggled = true
 				while toggled == true do -- on
-					wait(0,01)
+					wait(0,2)
 					local args = {
 						[1] = {
 							[1] = "GainMuscle"
